@@ -19,18 +19,22 @@
     <link rel="stylesheet" href="./sass/main.scss" />
   </head>
   <body>
+    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+    <include src="./partials/fireflies.html"></include>
     <form class="search-form" id="search-form">
       <input
-        class="intup"
+        class="search-form_input"
         type="text"
         name="query"
         autocomplete="off"
         placeholder="Search images..."
       />
-      <button class="input-button" type="submit">Search</button>
+      <button class="search-form_button" type="submit">Search</button>
     </form>
     <ul class="gallery"></ul>
     <button class="load-more" type="button">Load more foto</button>
+
+    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>
   </body>
 </html>
