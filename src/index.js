@@ -25,7 +25,7 @@ function requestForm(event) {
 }
 
 function loadMore(event) {
-  webPage += 1;
+  Page += 1;
   getPrintImages(true);
 }
 function getPrintImages(winScroll) {
@@ -45,7 +45,7 @@ function getPrintImages(winScroll) {
     //   alert('Enter correct name of search please!');
     }
     if (winScroll) {
-      winScroll();
+      scroll();
     }
   });
 }
@@ -57,7 +57,7 @@ function scroll() {
   });
 }
 
-function biggestFoto(event) {
+function bigImage(event) {
   if (event.target.tagName !== 'IMG') return;
 
   const largeImageURL = event.target.dataset.bigImage;
