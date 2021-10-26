@@ -12,12 +12,12 @@ btnLoadMoreRef.addEventListener('click', loadMore);
 galleryRef.addEventListener('click', bigImage);
 
 let webSearch = '';
-let webPage = 1;
+let Page = 1;
 
 function requestForm(event) {
   event.preventDefault();
   galleryRef.innerHTML = '';
-  webPage = 1;
+  Page = 1;
   webSearch = inputRef.value;
   if (webSearch === '') return;
 
