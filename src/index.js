@@ -28,23 +28,22 @@ function loadMore(event) {
   Page += 1;
   getPrintImages(true);
 }
-function getPrintImages(winScroll) {
+function getPrintImages(shouldScroll) {
   fetchData(searchWord, page).then(data => {
-    const cards = galleryCard(data.hits);
+    const carts = cart_galary(data.hits);
     const hitsLength = data.hits.length;
 
-    galleryRef.insertAdjacentHTML('beforeend', cards);
+    galleryRef.insertAdjacentHTML('beforeend', carts);
     btnLoadMoreRef.classList.add('is-open');
     formRef.reset();
 
     if (hitsLength < 1) {
       btnLoadMoreRef.classList.remove('is-open');
     }
-      if (hitsLength === 0) {
-        alert ('Введите правильное название поиска, пожалуйста!')
-    //   alert('Enter correct name of search please!');
+    if (hitsLength === 0) {
+      alert('Enter correct name of search please!');
     }
-    if (winScroll) {
+    if (shouldScroll) {
       scroll();
     }
   });
