@@ -1,6 +1,8 @@
 import './sass/main.scss';
 import { fetchImages } from './js/api';
 import galleryCard from './templates/galleryCard';
+import * as basicLightbox from 'basiclightbox';
+import 'basiclightbox/dist/basicLightbox.min.css';
 
 const formRef = document.querySelector('.search-form');
 const inputRef = document.querySelector('.search-form_input');
