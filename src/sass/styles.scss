@@ -67,12 +67,30 @@
   cursor: pointer;
 }
 
-// .load-more {
-//   display: none;
-//   text-align: center;
-//   margin-left: 42%;
-//   margin-top: 30px;
-// }
+.load-more {
+  display: none;
+  text-align: center;
+  border: 2px double lemonchiffon;
+  padding: 10px 10px;
+  height: 40px;
+  border-radius: 35px;
+  background: rgba(119, 87, 87, 0.5);
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: white;
+  outline: none;
+  caret-color: rgba(119, 87, 87, 0.5);
+  margin-left: 35%;
+  width: 500px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.is-open {
+  display: inline-block;
+}
 
 // ===== конец формы поиска =====
 
@@ -116,30 +134,4 @@
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.load-more {
-  display: none;
-  text-align: center;
-  border: 2px double lemonchiffon;
-  padding: 10px 10px;
-  display: inline-block;
-  height: 40px;
-  border-radius: 35px;
-  background: rgba(119, 87, 87, 0.5);
-  margin-bottom: 20px;
-  font-size: 20px;
-  color: white;
-  outline: none;
-  caret-color: rgba(119, 87, 87, 0.5);
-  margin-left: 35%;
-  width: 500px;
-
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.is-open {
-  display: inline-block;
 }
