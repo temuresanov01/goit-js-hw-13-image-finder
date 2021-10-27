@@ -29,8 +29,8 @@ function loadMore(event) {
   getPrintImages(true);
 }
 function getPrintImages(shouldScroll) {
-  fetchData(webSearch, webPage).then(data => {
-    const carts = cart_galary(data.hits);
+  fetchImages(webSearch, webPage).then(data => {
+    const carts = galleryCard(data.hits);
     const hitsLength = data.hits.length;
 
     galleryRef.insertAdjacentHTML('beforeend', carts);
