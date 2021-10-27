@@ -12,12 +12,12 @@ btnLoadMoreRef.addEventListener('click', loadMore);
 galleryRef.addEventListener('click', bigImage);
 
 let webSearch = '';
-let Page = 1;
+let webPage = 1;
 
 function requestForm(event) {
   event.preventDefault();
   galleryRef.innerHTML = '';
-  Page = 1;
+  webPage = 1;
   webSearch = inputRef.value;
   if (webSearch === '') return;
 
@@ -25,11 +25,11 @@ function requestForm(event) {
 }
 
 function loadMore(event) {
-  Page += 1;
+  webPage += 1;
   getPrintImages(true);
 }
 function getPrintImages(shouldScroll) {
-  fetchData(searchWord, page).then(data => {
+  fetchData(webSearch, webPage).then(data => {
     const carts = cart_galary(data.hits);
     const hitsLength = data.hits.length;
 
