@@ -2,7 +2,7 @@
 .search-form {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 .search-form_input {
@@ -10,7 +10,7 @@
   border: 2px double lemonchiffon;
   padding: 10px 10px;
   display: inline-block;
-  height: 60px;
+  height: 40px;
   border-radius: 35px;
   background: rgba(119, 87, 87, 0.5);
   margin-bottom: 20px;
@@ -20,29 +20,35 @@
   text-align: center;
   caret-color: rgba(119, 87, 87, 0.5);
 }
+
 ::-webkit-input-placeholder {
   /* WebKit browsers */
   color: white;
 }
+
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: white;
 }
+
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: white;
 }
+
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: white;
 }
+
 .search-form_input:hover,
 .search-form_input:focus {
   background: rgba(119, 87, 87, 1);
 }
+
 .search-form_button {
   width: 120px;
-  height: 60px;
+  height: 40px;
   border: 2px double lemonchiffon;
   border-radius: 35px;
   background: rgba(119, 87, 87, 0.5);
@@ -60,6 +66,7 @@
   background-color: rgba(119, 87, 87, 1);
   cursor: pointer;
 }
+
 .load-more {
   display: none;
   text-align: center;
@@ -70,3 +77,37 @@
 // ===== конец формы поиска =====
 
 // ===== начало галереи  =====
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 0;
+  list-style: none;
+  max-width: calc(100vw - 80px);
+  margin: 0 auto 30px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3px;
+}
+
+.stats-item {
+  margin: 5px auto;
+}
+
+.material-icons:hover {
+  color: blue;
+  align-items: center;
+  justify-self: center;
+}
+
+[data-big-image] {
+  // width: 346px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
