@@ -14,7 +14,7 @@
     border-radius: 35px;
     background: rgba(119, 87, 87, 0.5);
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 18 px;
     color: white;
     outline: none;
     text-align: center;
@@ -237,14 +237,14 @@
 
   .gallery {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 0;
   }
 
   .photo-card {
-    width: 350px;
-    height: 350px;
+    width: 280px;
+    // height: 350px;
     margin-bottom: 30px;
     border: 2px solid black;
     border-radius: 5px;
@@ -269,8 +269,9 @@
   }
 
   [data-big-image] {
-    width: 346px;
-    height: 300px;
+    width: 100%;
+    // width: 346px;
+    // height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
   }
