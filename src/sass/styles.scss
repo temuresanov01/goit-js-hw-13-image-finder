@@ -138,140 +138,140 @@
 
 @media screen and (min-width: 400px) {
   // ===== начало формы поиска =====
-  //   .search-form {
-  //     display: flex;
-  //     justify-content: center;
-  //     padding-top: 5px;
-  //   }
+  .search-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+  }
 
-  //   .search-form_input {
-  //     width: 320px;
-  //     border: 2px double lemonchiffon;
-  //     padding: 10px 10px;
-  //     display: inline-block;
-  //     height: 40px;
-  //     border-radius: 35px;
-  //     background: rgba(119, 87, 87, 0.5);
-  //     margin-bottom: 20px;
-  //     font-size: 26px;
-  //     color: white;
-  //     outline: none;
-  //     text-align: center;
-  //     caret-color: rgba(119, 87, 87, 0.5);
-  //   }
+  .search-form_input {
+    width: 320px;
+    border: 2px double lemonchiffon;
+    padding: 10px 10px;
+    display: inline-block;
+    height: 40px;
+    border-radius: 35px;
+    background: rgba(119, 87, 87, 0.5);
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: white;
+    outline: none;
+    text-align: center;
+    caret-color: rgba(119, 87, 87, 0.5);
+  }
 
-  //   ::-webkit-input-placeholder {
-  //     /* WebKit browsers */
-  //     color: white;
-  //   }
+  ::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: white;
+  }
 
-  //   :-moz-placeholder {
-  //     /* Mozilla Firefox 4 to 18 */
-  //     color: white;
-  //   }
+  :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: white;
+  }
 
-  //   ::-moz-placeholder {
-  //     /* Mozilla Firefox 19+ */
-  //     color: white;
-  //   }
+  ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: white;
+  }
 
-  //   :-ms-input-placeholder {
-  //     /* Internet Explorer 10+ */
-  //     color: white;
-  //   }
+  :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: white;
+  }
 
-  //   .search-form_input:hover,
-  //   .search-form_input:focus {
-  //     background: rgba(119, 87, 87, 1);
-  //   }
+  .search-form_input:hover,
+  .search-form_input:focus {
+    background: rgba(119, 87, 87, 1);
+  }
 
-  //   .search-form_button {
-  //     width: 120px;
-  //     height: 40px;
-  //     border: 2px double lemonchiffon;
-  //     border-radius: 35px;
-  //     background: rgba(119, 87, 87, 0.5);
-  //     margin-left: 15px;
-  //     font-size: 26px;
-  //     outline: none;
-  //     text-align: center;
-  //     caret-color: rgba(119, 87, 87, 0.5);
-  //     color: white;
-  //   }
+  .search-form_button {
+    width: 120px;
+    height: 40px;
+    border: 2px double lemonchiffon;
+    border-radius: 35px;
+    background: rgba(119, 87, 87, 0.5);
+    margin-left: 15px;
+    font-size: 26px;
+    outline: none;
+    text-align: center;
+    caret-color: rgba(119, 87, 87, 0.5);
+    color: white;
+  }
 
-  //   .search-form_button:hover,
-  //   .search-form_input:focus {
-  //     color: white;
-  //     background-color: rgba(119, 87, 87, 1);
-  //     cursor: pointer;
-  //   }
+  .search-form_button:hover,
+  .search-form_input:focus {
+    color: white;
+    background-color: rgba(119, 87, 87, 1);
+    cursor: pointer;
+  }
 
-  //   .load-more {
-  //     display: none;
-  //     text-align: center;
-  //     border: 2px double lemonchiffon;
-  //     padding: 10px 10px;
-  //     height: 40px;
-  //     border-radius: 35px;
-  //     background: rgba(119, 87, 87, 0.5);
-  //     margin-bottom: 20px;
-  //     font-size: 20px;
-  //     color: white;
-  //     outline: none;
-  //     caret-color: rgba(119, 87, 87, 0.5);
-  //     margin-left: 35%;
-  //     width: 500px;
+  .load-more {
+    display: none;
+    text-align: center;
+    border: 2px double lemonchiffon;
+    padding: 10px 10px;
+    height: 40px;
+    border-radius: 35px;
+    background: rgba(119, 87, 87, 0.5);
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    caret-color: rgba(119, 87, 87, 0.5);
+    margin-left: 35%;
+    width: 500px;
 
-  //     &:hover {
-  //       cursor: pointer;
-  //     }
-  //   }
+    &:hover {
+      cursor: pointer;
+    }
+  }
 
-  //   .is-open {
-  //     display: inline-block;
-  //   }
+  .is-open {
+    display: inline-block;
+  }
 
-  //   // ===== конец формы поиска =====
+  // ===== конец формы поиска =====
 
-  //   // ===== начало галереи  =====
+  // ===== начало галереи  =====
 
-  //   .gallery {
-  //     display: flex;
-  //     justify-content: space-between;
-  //     flex-wrap: wrap;
-  //     margin-bottom: 0;
-  //   }
+  .gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
 
-  //   .photo-card {
-  //     width: 350px;
-  //     height: 350px;
-  //     margin-bottom: 30px;
-  //     border: 2px solid black;
-  //     border-radius: 5px;
-  //     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-  //       1px 4px 6px rgba(0, 0, 0, 0.16);
-  //     background-color: rgb(27, 201, 100);
-  //   }
+  .photo-card {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+    background-color: rgb(27, 201, 100);
+  }
 
-  //   .stats {
-  //     display: flex;
-  //     justify-content: space-evenly;
-  //   }
+  .stats {
+    display: flex;
+    justify-content: space-evenly;
+  }
 
-  //   .stats-item {
-  //     margin: 5px auto;
-  //   }
+  .stats-item {
+    margin: 5px auto;
+  }
 
-  //   .material-icons:hover {
-  //     color: blue;
-  //     align-items: center;
-  //     justify-self: center;
-  //   }
+  .material-icons:hover {
+    color: blue;
+    align-items: center;
+    justify-self: center;
+  }
 
-  //   [data-big-image] {
-  //     width: 346px;
-  //     height: 300px;
-  //     background-repeat: no-repeat;
-  //     background-size: cover;
-  //   }
+  [data-big-image] {
+    width: 346px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
