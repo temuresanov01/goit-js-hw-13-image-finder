@@ -99,6 +99,7 @@
 
   .photo-card {
     width: 100%;
+    height: 300px;
     object-fit: cover;
     margin-bottom: 30px;
     border: 2px solid black;
@@ -132,11 +133,12 @@
 
   [data-big-image] {
     width: 100%;
+    height: 275px;
     object-fit: cover;
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 768px) {
   // ===== начало формы поиска =====
   .search-form {
     display: flex;
@@ -237,15 +239,19 @@
   // ===== начало галереи  =====
 
   .gallery {
+    // display: flex;
+    // justify-content: space-evenly;
+    // flex-wrap: wrap;
+    // margin-bottom: 0;
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-bottom: 0;
+    justify-content: space-evenly;
   }
 
   .photo-card {
-    width: 280px;
-    // height: 350px;
+    width: 240px;
+    height: 285px;
+    object-fit: cover;
     margin-bottom: 30px;
     border: 2px solid black;
     border-radius: 5px;
@@ -257,23 +263,28 @@
   .stats {
     display: flex;
     justify-content: space-evenly;
+    font-size: 20px;
   }
 
   .stats-item {
-    margin: 5px auto;
+    margin: 2px auto;
+    font-size: 10px;
   }
 
+  .material-icons {
+    width: 8px;
+    font-size: 8px;
+  }
   .material-icons:hover {
     color: blue;
     align-items: center;
     justify-self: center;
+    font-size: 10px;
   }
 
   [data-big-image] {
     width: 100%;
-    // width: 346px;
-    // height: 300px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 260px;
+    object-fit: cover;
   }
 }
