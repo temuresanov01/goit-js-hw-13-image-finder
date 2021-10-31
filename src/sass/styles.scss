@@ -83,10 +83,9 @@
     width: 200px;
   }
 
-  .load-more:hover,
-  .load-more:focus {
+  .load-more:hover {
     color: white;
-    background-color: rgba(119, 87, 87, 1);
+    background: rgba(119, 87, 87, 1);
     cursor: pointer;
   }
 
@@ -229,7 +228,7 @@
 
     &:hover {
       color: white;
-      background-color: rgba(119, 87, 87, 1);
+      background: rgba(119, 87, 87, 1);
       cursor: pointer;
     }
   }
