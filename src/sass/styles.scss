@@ -228,6 +228,8 @@
     width: 500px;
 
     &:hover {
+      color: white;
+      background-color: rgba(119, 87, 87, 1);
       cursor: pointer;
     }
   }
